@@ -214,14 +214,14 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Tableau',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: '',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Walmart Dashboard (Power BI)',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: '',
     },
     {
         iconUrl: summiz,
@@ -242,7 +242,7 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Contact Manager',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'https://github.com/Garrixxc/Contact_Manager',
     },
     {
         iconUrl: pricewise,
