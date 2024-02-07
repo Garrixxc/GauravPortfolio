@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { lgm, tsf, ace, csulb, ijhs } from "../assets/images";
 import {
     car,
     contact,
@@ -11,31 +11,67 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    python,
+    sql,
+    rlogo,
+    cplus,
+    jupyter,
+    powerbi,
+    excel,
+    tableau
 } from "../assets/icons";
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: python,
+        name: "python",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: sql,
+        name: "sql",
         type: "Backend",
+    },
+    {
+        imageUrl: rlogo,
+        name: "python",
+        type: "Frontend",
+    },
+    {
+        imageUrl: cplus,
+        name: "cplus",
+        type: "Frontend",
+    },
+    {
+        imageUrl: jupyter,
+        name: "jupyter",
+        type: "Frontend",
+    },
+    {
+        imageUrl: powerbi,
+        name: "powerbi",
+        type: "Visualization Tool",
+    },
+    {
+        imageUrl: excel,
+        name: "excel",
+        type: "Visualization Tool",
+        
+    },
+    {
+        imageUrl: tableau,
+        name: "tableau",
+        type: "Visualization Tool",
     },
     {
         imageUrl: git,
@@ -46,6 +82,16 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
         imageUrl: html,
@@ -61,16 +107,6 @@ export const skills = [
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
     },
     {
         imageUrl: nextjs,
@@ -93,11 +129,6 @@ export const skills = [
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -111,55 +142,29 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Web Development Intern",
+        company_name: "LetsGrowMore",
+        icon: lgm,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "June 2022 - July 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Enhanced a banking system using HTML, CSS, and JavaScript for a 20% increase in user engagement and 15% stronger security.",
+            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
+            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Web Development Intern",
+        company_name: "The Sparks Foundation",
+        icon: tsf,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2022 - August 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%.",
+            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
+            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
+            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
         ],
     },
 ];
@@ -186,43 +191,162 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Financial Fraud Detection',
+        description: 'Created a highly efficient Credit Card Fraud Detection System using a random forest model, leveraging Scikit-learn, NumPy, Pandas, Seaborn, and Matplotlib',
+        link: 'https://colab.research.google.com/drive/1pdGg4-NX3jS3LyzTM1hr4kvjCHBlT8vI?usp=sharing'
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'COVID-19 Data Analysis',
+        description: 'Employed Python libraries like Pandas, NumPy, Plotly Express, TensorFlow for data analysis. Conducted comparative analyses across 190 countries to highlight impacts.',
+        link: 'https://github.com/Garrixxc/COVID-19_DataAnalysis',
     },
     {
-        iconUrl: car,
+        iconUrl: pricewise,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'Regression & Simulation',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://1drv.ms/x/s!AnJzCff4s3cEhoQC7ogTHwrWik4JTA?e=XQcWcy',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
+        name: 'Tableau',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://github.com/adrianhajdin/social_media_app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
+        name: 'Walmart Dashboard (Power BI)',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
         link: 'https://github.com/adrianhajdin/projects_realestate',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
+        name: 'Coffee Sales Dashboard (Excel)',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://1drv.ms/x/s!AnJzCff4s3cEgcEq3n3GzWqkqUp_qQ?e=9uPFFT',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Company Website',
+        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        link: 'https://garrixxc.github.io/Company_Website/',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Contact Manager',
+        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        link: 'https://github.com/adrianhajdin/social_media_app',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'To-Do List',
+        description: 'Simple to-do list performing CRUD operations. One of my first projects.',
+        link: 'https://garrixxc.github.io/TO-DO-LIST/',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Calculator',
+        description: 'Simple calculator. One of my first projects.',
+        link: 'https://garrixxc.github.io/CALCULATER/',
     }
 ];
+export const naya = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'IP Adressing and Subnetting',
+        description: 'Udemy',
+        link: 'https://www.udemy.com/certificate/UC-ba0d37f4-ec9a-46f8-8f5a-01d18db6cb8b/'
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Ethical Hacking Exams',
+        description: 'Eduonix',
+        link: 'https://certificates-edu.s3.amazonaws.com/czoxMzoiNDQ5NzMzMV8xMjU3NCI7',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Machine Learning A-Z: AI, Python and R',
+        description: 'Udemy',
+        link: 'https://www.udemy.com/share/101Wci3@EhEWUDPhuSBYdbcpDdf9XDsS2j72TDtjC-CiOvWySMITR-oPHWfY64yhZmrMWq665w==/',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Supervised Machine Learning: Regression and Classification',
+        description: 'Coursera',
+        link: 'https://coursera.org/learn/machine-learning',
+    }
+  
+];
+
+export const education = [
+   
+    {
+        title: "Infant Jesus High School",
+        company_name: "Mumbai, India",
+        icon: ijhs,
+        iconBg: "#FDFDFD",
+        date: "August 2004- March 2017",
+        points: [
+            "Completed kindergarten, primary, and secondary schooling at Infant Jesus High School.",
+            "Achieved numerous prizes, showcasing a strong sportsmanship spirit. Won multiple science and social science quizzes and competitions, reflecting academic excellence.",
+            "Demonstrated a well-rounded education, excelling both in sports and academics at Infant Jesus High School.",
+            "Achieved a notable 89% in SSC board exams, showcasing strong academic prowess."
+        ],
+    },   
+    {
+        title: "Atharva College of Engineering",
+        company_name: "Mumbai, India",
+        icon: ace,
+        iconBg: "#accbe1",
+        date: "August 2019 - May 2023",
+        points: [
+            "Graduated with a Bachelor's in Electronics and Telecommunication from Atharva College with a GPA of 3.7/4",
+            "Mastery in STM32, Arduino, Raspberry Pi, Python, and C++ for robust embedded systems.",
+            "Recognized as the Best Sportsman for athletic achievements and served as the Publicity Head for College Cultural event, showcasing leadership and organizational skills.",
+            "Balanced academic excellence with sportsmanship and event leadership, reflecting a versatile and dynamic skill set poised for a successful career.",
+        ],
+    },
+    {
+        title: "California State University, Long Beach",
+        company_name: "CA, United States",
+        icon: csulb,
+        iconBg: "#F1D20D",
+        date: "August 2023 - May 2025",
+        points: [
+            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%..",
+            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
+            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
+            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
+        ],
+    },
+];
+
+export const pubs = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Technical Paper',
+        description: 'Created a highly efficient Credit Card Fraud Detection System using a random forest model, leveraging Scikit-learn, NumPy, Pandas, Seaborn, and Matplotlib',
+        link: ''
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Personal Blog',
+        description: 'Employed Python libraries like Pandas, NumPy, Plotly Express, TensorFlow for data analysis. Conducted comparative analyses across 190 countries to highlight impacts.',
+        link: 'https://garrixxc.blogspot.com/',
+    }
+]
