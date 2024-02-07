@@ -82,6 +82,10 @@ management skills. Success in brand engagement and thinking through. Ready to ap
         </div>
       </div>
 
+
+      <hr className='border-slate-500' />
+
+
       <div className='py-16'>
         <h3 className='subhead-text'>Certifications</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
@@ -129,6 +133,10 @@ management skills. Success in brand engagement and thinking through. Ready to ap
           </div>
         ))}
       </div>
+
+      <hr className='border-slate-500' />
+
+
       <div className='py-16'>
         <h3 className='subhead-text'>Publications.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
