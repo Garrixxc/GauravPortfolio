@@ -95,7 +95,7 @@ management skills. Success in brand engagement and thinking through. Ready to ap
         </div>
       </div>
 
-      <div className='flex flex-wrap my-10 gap-16'>
+      <div className='flex flex-wrap my-20 gap-16'>
         {naya.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
