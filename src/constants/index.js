@@ -326,10 +326,8 @@ export const education = [
         iconBg: "#F1D20D",
         date: "August 2023 - May 2025",
         points: [
-            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%..",
-            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
-            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
-            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
+            "I am pursuing my Master's of Science in Information Systems from California State University, Long Beach",
+            "I have a current GPA of 3.7/4 which portrays my academic excellence.",
         ],
     },
 ];

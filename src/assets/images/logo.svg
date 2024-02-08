@@ -1,5 +1,4 @@
 <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect x="10" y="10" width="80" height="80" rx="10" ry="10" fill="#8BCCE7"/>
-  <text x="30" y="70" font-family="Felix Titling" font-size="55" font-weight="bold" fill="#153880">G</text>
-  <text x="40" y="87" font-family="Felix Titling" font-size="60 " font-weight="bold" fill="#153880">S</text>
+  <rect x="10" y="10" width="80" height="80" rx="10" ry="10" fill="#ECCD05"/>
+  <text x="15" y="65" font-family="Britannic Bold" font-size="55" font-weight="bold" fill="#153880">GS</text>
 </svg>
