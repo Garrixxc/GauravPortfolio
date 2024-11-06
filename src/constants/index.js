@@ -48,11 +48,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: cplus,
-        name: "cplus",
-        type: "Frontend",
-    },
-    {
         imageUrl: jupyter,
         name: "jupyter",
         type: "Frontend",
@@ -72,6 +67,11 @@ export const skills = [
         imageUrl: tableau,
         name: "tableau",
         type: "Visualization Tool",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
     },
     {
         imageUrl: git,
@@ -99,14 +99,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
+        imageUrl: cplus,
+        name: "cplus",
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
     },
     {
         imageUrl: nextjs,
