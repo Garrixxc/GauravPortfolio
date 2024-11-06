@@ -148,10 +148,10 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "June 2022 - July 2022",
         points: [
-            "Enhanced a banking system usinfor a 20% inc",
-            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
-            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Boosted reporting speed by 25% using automated SQL procedures and Python-based data cleaning, optimizing data handling for 5,000 marathon participants and reducing manual efforts.",
+            "Developed and launched two Power BI dashboards to showcase past race insights, which contributed to a 10% increase in event registrations.",
+            "Empowered stakeholders with data-driven insights by creating engaging PowerPoint presentations and dashboards, supporting strategic planning for future events.",
+            "Enhanced data accessibility for stakeholders, driving informed decision-making and contributing to more effective event management.",
         ],
     },
     {
@@ -161,10 +161,10 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "June 2022 - July 2022",
         points: [
-            "Enhanced a banking system usinfor a 20% inc",
-            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
-            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Orchestrated data extraction and analysis with SQL, Python, and BigQuery, resulting in a 25% increase in targeted marketing effectiveness through real-time, interactive Tableau dashboards.",
+            "Streamlined ETL pipelines and improved sales tracking with Tableau dashboards, boosting campaign effectiveness by 15% and contributing to a 10% increase in sales.",
+            "Conducted A/B testing and utilized ad-hoc SQL queries to analyze customer data, leading to a 10% improvement in customer retention.",
+            "Enhanced data-driven decision-making by delivering actionable insights to the marketing team, enabling timely adjustments that optimized campaign performance.",
         ],
     },
 
@@ -241,7 +241,7 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Tableau',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: '',
+        link: 'https://public.tableau.com/app/profile/gaurav.rajendra.salvi/vizzes',
     },
     {
         iconUrl: estate,
@@ -288,6 +288,20 @@ export const projects = [
 ];
 export const naya = [
     {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Supervised Machine Learning: Regression and Classification',
+        description: 'Coursera',
+        link: 'https://coursera.org/share/6c0a39a3e35b3fc5607bfb7133fd165b',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Machine Learning A-Z: AI, Python and R',
+        description: 'Udemy',
+        link: 'https://www.udemy.com/share/101Wci3@EhEWUDPhuSBYdbcpDdf9XDsS2j72TDtjC-CiOvWySMITR-oPHWfY64yhZmrMWq665w==/',
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'IP Adressing and Subnetting',
@@ -300,22 +314,10 @@ export const naya = [
         name: 'Ethical Hacking Exams',
         description: 'Eduonix',
         link: 'https://certificates-edu.s3.amazonaws.com/czoxMzoiNDQ5NzMzMV8xMjU3NCI7',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Machine Learning A-Z: AI, Python and R',
-        description: 'Udemy',
-        link: 'https://www.udemy.com/share/101Wci3@EhEWUDPhuSBYdbcpDdf9XDsS2j72TDtjC-CiOvWySMITR-oPHWfY64yhZmrMWq665w==/',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Supervised Machine Learning: Regression and Classification',
-        description: 'Coursera',
-        link: 'https://coursera.org/learn/machine-learning',
     }
-  
+    
+
+
 ];
 
 export const education = [

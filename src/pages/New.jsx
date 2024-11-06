@@ -19,9 +19,9 @@ const New = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Information Systems grad with expertise in web development, data analysis, and ML. Proficient in Python, HTML/CSS, and data
-science. Strong in data analysis, and visualization with tools like Power BI/Excel/Tableau. Knowledge of AI models and Database
-management skills. Success in brand engagement and thinking through. Ready to apply tech skills in critical environments
+      Data-driven Information Systems graduate skilled in data analytics, business intelligence, and statistical analysis. Proficient in SQL, Tableau, Power BI, and Python, with experience transforming data into actionable insights through interactive 
+dashboards and optimized ETL pipelines. Known for a strong analytical mindset and a commitment to leveraging data for strategic decision-making and business growth.
+
       </p>
       <div className='py-16'>
         <h3 className='subhead-text'>Academic Background.</h3>
