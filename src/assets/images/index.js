@@ -6,6 +6,8 @@ import logo from './logo.svg'
 import ace from './ace.png'
 import csulb from './csulb.png'
 import ijhs from './ijhs.png'
+import fts from './fts.png'
+import csk from './csk.png'
 
 export {
     hero,
@@ -15,5 +17,7 @@ export {
     logo,
     csulb,
     ace,
-    ijhs
+    ijhs,
+    fts,
+    csk
 }

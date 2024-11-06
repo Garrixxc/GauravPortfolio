@@ -1,4 +1,4 @@
-import { lgm, tsf, ace, csulb, ijhs } from "../assets/images";
+import { lgm, tsf, ace, csulb, ijhs, fts, csk } from "../assets/images";
 import {
     car,
     contact,
@@ -142,9 +142,9 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Web Development Intern",
-        company_name: "LetsGrowMore",
-        icon: lgm,
+        title: "Data Analyst Intern",
+        company_name: "Fitskol",
+        icon: fts,
         iconBg: "#accbe1",
         date: "June 2022 - July 2022",
         points: [
@@ -152,6 +152,33 @@ export const experiences = [
             "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
             "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Business Intelligence Intern",
+        company_name: "CaseKaro",
+        icon: csk,
+        iconBg: "#accbe1",
+        date: "June 2022 - July 2022",
+        points: [
+            "Enhanced a banking system usinfor a 20% inc",
+            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
+            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+
+    {
+        title: "Web Development Intern",
+        company_name: "The Sparks Foundation",
+        icon: tsf,
+        iconBg: "#fbc3bc",
+        date: "July 2022 - August 2022",
+        points: [
+            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%.",
+            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
+            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
+            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
         ],
     },
     {
@@ -165,19 +192,6 @@ export const experiences = [
             "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
             "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
             "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Development Intern",
-        company_name: "The Sparks Foundation",
-        icon: tsf,
-        iconBg: "#fbc3bc",
-        date: "July 2022 - August 2022",
-        points: [
-            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%.",
-            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
-            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
-            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
         ],
     },
 ];
