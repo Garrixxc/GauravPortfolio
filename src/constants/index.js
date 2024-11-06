@@ -1,4 +1,4 @@
-import { lgm, tsf, ace, csulb, ijhs } from "../assets/images";
+import { lgm, tsf, ace, csulb, ijhs, fts } from "../assets/images";
 import {
     car,
     contact,
@@ -141,6 +141,19 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        title: "Web Development Intern",
+        company_name: "LetsGrowMore",
+        icon: fts,
+        iconBg: "#accbe1",
+        date: "June 2022 - July 2022",
+        points: [
+            "Enhanced a banking system using HTML, CSS, and JavaScript for a 20% increase in user engagement and 15% stronger security.",
+            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
+            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
     {
         title: "Web Development Intern",
         company_name: "LetsGrowMore",
