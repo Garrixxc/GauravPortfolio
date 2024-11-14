@@ -95,7 +95,7 @@ dashboards and optimized ETL pipelines. Known for a strong analytical mindset an
         </div>
       </div>
 
-      <div className='flex flex-wrap my-20 gap-16'>
+      <div className='flex flex-wrap my-3 gap-16'>
         {naya.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
@@ -146,7 +146,7 @@ dashboards and optimized ETL pipelines. Known for a strong analytical mindset an
         </div>
       </div>
       
-      <div className='flex flex-wrap my-20 gap-16'>
+      <div className='flex flex-wrap my-3 gap-16'>
         {pubs.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
