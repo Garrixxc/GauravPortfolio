@@ -146,7 +146,7 @@ export const experiences = [
         company_name: "Fitskol",
         icon: fts,
         iconBg: "#accbe1",
-        date: "June 2022 - July 2022",
+        date: "January 2023 - May 2023",
         points: [
             "Boosted reporting speed by 25% using automated SQL procedures and Python-based data cleaning, optimizing data handling for 5,000 marathon participants and reducing manual efforts.",
             "Developed and launched two Power BI dashboards to showcase past race insights, which contributed to a 10% increase in event registrations.",
@@ -159,7 +159,7 @@ export const experiences = [
         company_name: "CaseKaro",
         icon: csk,
         iconBg: "#accbe1",
-        date: "June 2022 - July 2022",
+        date: "August 2022 - January 2023",
         points: [
             "Orchestrated data extraction and analysis with SQL, Python, and BigQuery, resulting in a 25% increase in targeted marketing effectiveness through real-time, interactive Tableau dashboards.",
             "Streamlined ETL pipelines and improved sales tracking with Tableau dashboards, boosting campaign effectiveness by 15% and contributing to a 10% increase in sales.",
@@ -323,18 +323,16 @@ export const naya = [
 export const education = [
    
     {
-        title: "Infant Jesus High School",
-        company_name: "Mumbai, India",
-        icon: ijhs,
-        iconBg: "#FDFDFD",
-        date: "August 2004- March 2017",
+        title: "California State University, Long Beach",
+        company_name: "CA, United States",
+        icon: csulb,
+        iconBg: "#F1D20D",
+        date: "August 2023 - May 2025",
         points: [
-            "Completed kindergarten, primary, and secondary schooling at Infant Jesus High School.",
-            "Achieved numerous prizes, showcasing a strong sportsmanship spirit. Won multiple science and social science quizzes and competitions, reflecting academic excellence.",
-            "Demonstrated a well-rounded education, excelling both in sports and academics at Infant Jesus High School.",
-            "Achieved a notable 89% in SSC board exams, showcasing strong academic prowess."
+            "I am pursuing my Master's of Science in Information Systems from California State University, Long Beach",
+            "I have a current GPA of 3.7/4 which portrays my academic excellence.",
         ],
-    },   
+    },
     {
         title: "Atharva College of Engineering",
         company_name: "Mumbai, India",
@@ -348,17 +346,21 @@ export const education = [
             "Balanced academic excellence with sportsmanship and event leadership, reflecting a versatile and dynamic skill set poised for a successful career.",
         ],
     },
+
     {
-        title: "California State University, Long Beach",
-        company_name: "CA, United States",
-        icon: csulb,
-        iconBg: "#F1D20D",
-        date: "August 2023 - May 2025",
+        title: "Infant Jesus High School",
+        company_name: "Mumbai, India",
+        icon: ijhs,
+        iconBg: "#FDFDFD",
+        date: "August 2004- March 2017",
         points: [
-            "I am pursuing my Master's of Science in Information Systems from California State University, Long Beach",
-            "I have a current GPA of 3.7/4 which portrays my academic excellence.",
+            "Achieved a notable 89% in SSC board exams, showcasing strong academic prowess.",
+            "Completed kindergarten, primary, and secondary schooling at Infant Jesus High School.",
+            "Achieved numerous prizes, showcasing a strong sportsmanship spirit. Won multiple science and social science quizzes and competitions, reflecting academic excellence.",
+            "Demonstrated a well-rounded education, excelling both in sports and academics at Infant Jesus High School."
+            
         ],
-    },
+    }, 
 ];
 
 export const pubs = [
