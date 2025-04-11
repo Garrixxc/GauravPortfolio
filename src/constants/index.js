@@ -146,12 +146,13 @@ export const experiences = [
         company_name: "Fitskol",
         icon: fts,
         iconBg: "#accbe1",
-        date: "January 2023 - May 2023",
+        date: "January 2022 - July 2023",
         points: [
-            "Boosted reporting speed by 25% using automated SQL procedures and Python-based data cleaning, optimizing data handling for 5,000 marathon participants and reducing manual efforts.",
-            "Developed and launched two Power BI dashboards to showcase past race insights, which contributed to a 10% increase in event registrations.",
-            "Empowered stakeholders with data-driven insights by creating engaging PowerPoint presentations and dashboards, supporting strategic planning for future events.",
-            "Enhanced data accessibility for stakeholders, driving informed decision-making and contributing to more effective event management.",
+            "Analysed batch-size NoSQL data for 5 large-scale sporting events (5,000+ participants each), generating insights that improved event logistics by 20% under Agile workflow. Conducted t-tests to compare participant performance across various event conditions",
+            "Built ETL pipelines using AWS Glue, processing 100GB+ event data, storing it in S3, and querying via Athena, reducing data processing time by 30% while ensuring GDPR & SOC 2 compliance.",
+            "Designed interactive Tableau dashboards for 10+ sponsors and stakeholders, enhancing visibility into attendance trends, performance metrics, and marketing ROI, boosting sponsorship engagement by 25%.",
+            "Automated Excel and Advanced Excel (Power Query, VBA) reports, reducing manual reporting time by 25%.",
+            "Integrated real-time data streaming services, enabling instant monitoring of participant registrations, race timings, and feedback, improving operational efficiency by 15%."
         ],
     },
     {
@@ -159,12 +160,13 @@ export const experiences = [
         company_name: "CaseKaro",
         icon: csk,
         iconBg: "#accbe1",
-        date: "August 2022 - January 2023",
+        date: "August 2020 - January 2022",
         points: [
-            "Orchestrated data extraction and analysis with SQL, Python, and BigQuery, resulting in a 25% increase in targeted marketing effectiveness through real-time, interactive Tableau dashboards.",
-            "Streamlined ETL pipelines and improved sales tracking with Tableau dashboards, boosting campaign effectiveness by 15% and contributing to a 10% increase in sales.",
-            "Conducted A/B testing and utilized ad-hoc SQL queries to analyze customer data, leading to a 10% improvement in customer retention.",
-            "Enhanced data-driven decision-making by delivering actionable insights to the marketing team, enabling timely adjustments that optimized campaign performance.",
+            "Managed real-time sales and customer data across 1M+ transactions, leveraging SQL (MySQL, PostgreSQL) and BigQuery, improving data retrieval speed by 40% while maintaining PCI-DSS compliance.",
+            "Developed ETL pipelines using AWS Glue and Airflow, optimizing inventory management, reducing stock shortages by 20%, andensuring data governance compliance. Applied ANOVA to compare sales performance across different promotional campaigns.",
+            "Engineered a product recommendation system using Apriori (Association Rule Mining), increasing repeat purchases by 15% and boosting sales by 12%, supporting Agile experimentation in marketing strategies.",
+            "Created 15+ Power BI and AWS QuickSight dashboards, providing real-time insights that accelerated Agile decision-making.",
+            "Created financial reports using Excel and Advanced Excel, cutting manual effort by 30% while ensuring SOX compliance."
         ],
     },
 
