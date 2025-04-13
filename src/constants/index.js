@@ -142,7 +142,7 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Data Analyst Intern",
+        title: "Data Engineer",
         company_name: "Fitskol",
         icon: fts,
         iconBg: "#accbe1",
@@ -156,7 +156,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Business Intelligence Intern",
+        title: "Business Intelligence",
         company_name: "CaseKaro",
         icon: csk,
         iconBg: "#accbe1",
