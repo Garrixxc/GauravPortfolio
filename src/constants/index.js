@@ -156,7 +156,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Business Intelligence",
+        title: "Business Intelligence Analyst",
         company_name: "CaseKaro",
         icon: csk,
         iconBg: "#accbe1",
