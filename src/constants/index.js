@@ -142,60 +142,34 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Data Engineer",
-        company_name: "Fitskol",
+        title: "Data Scientist",
+        company_name: "PNC",
         icon: fts,
         iconBg: "#accbe1",
-        date: "January 2022 - July 2023",
+        date: "January 2025 - Current",
         points: [
-            "Analysed batch-size NoSQL data for 5 large-scale sporting events (5,000+ participants each), generating insights that improved event logistics by 20% under Agile workflow. Conducted t-tests to compare participant performance across various event conditions",
-            "Built ETL pipelines using AWS Glue, processing 100GB+ event data, storing it in S3, and querying via Athena, reducing data processing time by 30% while ensuring GDPR & SOC 2 compliance.",
-            "Designed interactive Tableau dashboards for 10+ sponsors and stakeholders, enhancing visibility into attendance trends, performance metrics, and marketing ROI, boosting sponsorship engagement by 25%.",
-            "Automated Excel and Advanced Excel (Power Query, VBA) reports, reducing manual reporting time by 25%.",
-            "Integrated real-time data streaming services, enabling instant monitoring of participant registrations, race timings, and feedback, improving operational efficiency by 15%."
+            "Developed a churn prediction model using XGBoost on 100k+ healthcare claims achieving 84% accuracy and reducing churn by 20% .Owned Directed end-to-end development of Generative AI solutions (GPT-4, Llama 3, LangChain, Hugging Face) deployed on AWS Bedrock & SageMaker, enabling enterprise-grade RAG pipelines and improving customer support efficiency by 50%.",
+            "Built an RNN on 1M+ historical insurance claims to detect fraud (inflated bill, etc) achieving 91% accuracy. Deployed on AWS EC2 instance using Docker and CI/CD with Jenkins and leveraged S3 for claim data storage to enable real-time detection of high-risk claims and reduce false positives by 27%.",
+            "Designed a healthcare insurance support chatbot using GPT-4 with a RAG approach over claims and policy documents applying semantic search on a vector database (Pinecone). Reduced average response time by 50% which enhanced customer satisfaction (CSAT) scores.",
+            "Defined, measured, and communicated key performance metrics in collaboration with stakeholders to drive business impact and support data-informed decisions across teams.",
+            "Worked with structured and unstructured big data (claims, text, PDFs) using Spark and Hive for scalable preprocessing."
         ],
     },
     {
-        title: "Business Intelligence Analyst",
-        company_name: "CaseKaro",
+        title: "Data Scientist",
+        company_name: "TatvaSoft",
         icon: csk,
         iconBg: "#accbe1",
-        date: "August 2020 - January 2022",
+        date: "December 2020 - June 2023",
         points: [
-            "Managed real-time sales and customer data across 1M+ transactions, leveraging SQL (MySQL, PostgreSQL) and BigQuery, improving data retrieval speed by 40% while maintaining PCI-DSS compliance.",
-            "Developed ETL pipelines using AWS Glue and Airflow, optimizing inventory management, reducing stock shortages by 20%, andensuring data governance compliance. Applied ANOVA to compare sales performance across different promotional campaigns.",
-            "Engineered a product recommendation system using Apriori (Association Rule Mining), increasing repeat purchases by 15% and boosting sales by 12%, supporting Agile experimentation in marketing strategies.",
-            "Created 15+ Power BI and AWS QuickSight dashboards, providing real-time insights that accelerated Agile decision-making.",
-            "Created financial reports using Excel and Advanced Excel, cutting manual effort by 30% while ensuring SOX compliance."
+            "Implemented an NLP-based recommendation system for an e-commerce platform that combined product metadata (category, brand, price) with customer reviews to generate personalized suggestions. This hybrid approach improved click-through rate by 20% and boosted sales by 30%.",
+            "Used unsupervised learning techniques such as K-Means clustering on customer purchase and behavioral data to segment users and uncover distinct groups for analysis. Built Tableau dashboards to visualize these segments to help marketing team to monitor trends and make data-driven decisions.",
+            "Queried transaction and clickstream data using SQL to analyze conversion drop-offs across product categories. Performed root cause analysis and A/B testing to validate issues such as pricing and checkout funnel design, leading to campaign optimizations that increased conversion rates by 10%.",
+            "Engaged with stakeholders to gather requirements for product development and ensure alignment with business objectives while maintaining coding standards, conducting code reviews, managing source control, optimizing build processes, and implementing unit testing strategies.",
+            "Applied computer vision and text analytics on e-commerce datasets, leveraging CNNs and NLP for personalization."
         ],
     },
 
-    {
-        title: "Web Development Intern",
-        company_name: "The Sparks Foundation",
-        icon: tsf,
-        iconBg: "#fbc3bc",
-        date: "July 2022 - August 2022",
-        points: [
-            "Spearheaded the creation of an interactive personal website with innovative HTML, CSS, and JavaScript, boosting user engagement by 25%.",
-            "Optimized the user experience by focusing on intuitive design and seamless functionality, setting a standard for enjoyable online interactions.",
-            "Implemented CRUD functionalities seamlessly, enhancing the interactive to-do list app's effectiveness and providing users with a fluid experience in managing their tasks.",
-            "Highlighted adept problem-solving skills in the to-do list app development, showcasing prowess in addressing complex challenges for practical solutions.",
-        ],
-    },
-    {
-        title: "Web Development Intern",
-        company_name: "LetsGrowMore",
-        icon: lgm,
-        iconBg: "#accbe1",
-        date: "June 2022 - July 2022",
-        points: [
-            "Enhanced a banking system using HTML, CSS, and JavaScript for a 20% increase in user engagement and 15% stronger security.",
-            "Mastered Git and GitHub, ensuring efficient version control and collaborative teamwork.",
-            "Collaborated on cross-functional teams to implement web security best practices, reducing potential threats by 25%.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
 ];
 
 export const socialLinks = [
@@ -292,9 +266,23 @@ export const naya = [
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Supervised Machine Learning: Regression and Classification',
+        name: 'AWS Certified Solutions Architect - Associate',
+        description: 'Amazom Web Services',
+        link: 'https://www.credly.com/badges/88cf87a5-c201-46d5-867c-13e41934cd34/public_url',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'AWS Certified Cloud Practitioner',
+        description: 'Amazom Web Services',
+        link: 'https://www.credly.com/badges/fe0fbec4-408c-4543-8e9f-1f9bf54df4d2/public_url',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'Machine Learning Specialization - Stanford Online',
         description: 'Coursera',
-        link: 'https://coursera.org/share/6c0a39a3e35b3fc5607bfb7133fd165b',
+        link: 'https://www.coursera.org/account/accomplishments/specialization/TQPXU6PT351V?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n',
     },
     {
         iconUrl: car,
