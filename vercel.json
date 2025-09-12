@@ -1,14 +1,13 @@
 {
-    "github": {
-        "silent": true
-    },
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/"
-        }
-    ],
-      "functions": {
-    "*": { "runtime": "nodejs22.x" }
-  }
+  "github": {
+    "silent": true
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
