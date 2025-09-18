@@ -192,6 +192,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: threads,
+        theme: 'btn-back-red',
+        name: 'QuantX Playground',
+        description: 'Developed Futuristic Math Lab, an interactive Streamlit-based platform that visualizes Stochastic Differential Equations, Algorithms, and Numerical Methods with real-time simulations, CSV exports, and 2D FFT image processing.',
+        link: 'https://quantx-playground.streamlit.app/'
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'Uber & Lyft Price Prediction',
+        description: 'Built a machine learning pipeline to predict Uber and Lyft ride prices using a dataset of 700K rides in Boston, applying models such as Random Forest and Gradient Boosting to achieve >96% accuracy, and performed comparative analysis on how distance, surge pricing, and weather impact dynamic pricing.',
+        link: 'https://github.com/Garrixxc/Uber-Lyft-Price-Prediction',
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Financial Fraud Detection',
@@ -218,13 +232,6 @@ export const projects = [
         name: 'Tableau',
         description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
         link: 'https://public.tableau.com/app/profile/gaurav.rajendra.salvi/vizzes',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Walmart Dashboard (Power BI)',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: '',
     },
     {
         iconUrl: summiz,
@@ -319,8 +326,8 @@ export const education = [
         iconBg: "#F1D20D",
         date: "August 2023 - May 2025",
         points: [
-            "I am pursuing my Master's of Science in Information Systems from California State University, Long Beach",
-            "I have a current GPA of 3.7/4 which portrays my academic excellence.",
+            "I recently graduated with my Master's of Science in Information Systems from California State University, Long Beach",
+            "I have a GPA of 3.7/4 which portrays my academic excellence.",
         ],
     },
     {
