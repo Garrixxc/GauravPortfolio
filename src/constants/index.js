@@ -1,4 +1,4 @@
-import { lgm, tsf, ace, csulb, ijhs, fts, csk } from "../assets/images";
+import { lgm, tsf, ace, csulb, ijhs, pnc, csk } from "../assets/images";
 import {
     car,
     contact,
@@ -144,7 +144,7 @@ export const experiences = [
     {
         title: "Data Scientist",
         company_name: "PNC",
-        icon: fts,
+        icon: pnc,
         iconBg: "#accbe1",
         date: "January 2025 - Current",
         points: [

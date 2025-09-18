@@ -6,7 +6,7 @@ import logo from './logo.svg'
 import ace from './ace.png'
 import csulb from './csulb.png'
 import ijhs from './ijhs.png'
-import fts from './fts.png'
+import pnc from './pnc.png'
 import csk from './csk.png'
 
 export {
@@ -18,6 +18,6 @@ export {
     csulb,
     ace,
     ijhs,
-    fts,
+    pnc,
     csk
 }
