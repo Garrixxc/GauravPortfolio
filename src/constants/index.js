@@ -206,6 +206,20 @@ export const projects = [
         link: 'https://github.com/Garrixxc/Uber-Lyft-Price-Prediction',
     },
     {
+        iconUrl: snapgram,
+        theme: 'btn-back-blue',
+        name: 'Pet Sound Classification',
+        description: 'Developed an audio classification model to distinguish between cat and dog sounds using spectrogram features and deep learning techniques, achieving high accuracy in classifying animal audio data.',
+        link: 'https://github.com/Garrixxc/Deep-Learning-for-Pet-Sound-Classification',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Alzheimer’s Disease Detection',
+        description: 'Built a CNN model on 85,000+ MRI scans (OASIS dataset) to classify Alzheimer’s severity into four stages (none, very mild, mild, moderate), achieving 95% validation accuracy with strong generalization across classes.',
+        link: 'https://github.com/Garrixxc/Alzheimer-Detection-with-Deep-Learning',
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Financial Fraud Detection',
